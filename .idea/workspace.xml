@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="testProjectname:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5df8e5d-4578-4983-b2a8-0c473d6245b1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_web@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_web@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_web@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="video_web: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="video_web@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="video_web: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="table_user_subscribe: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/WebSocketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/room-template.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5175">
+              <caret line="225" column="18" selection-start-line="225" selection-start-column="18" selection-end-line="225" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/RoomController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#selectRoomUser#0;class#RoomController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4025">
+              <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userinfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6808">
+              <caret line="296" column="69" selection-start-line="296" selection-start-column="69" selection-end-line="296" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admisInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4462">
+              <caret line="194" column="71" selection-start-line="194" selection-start-column="71" selection-end-line="194" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/liveRoom.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5014">
+              <caret line="218" column="47" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/classify.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4370">
+              <caret line="190" column="62" selection-start-line="190" selection-start-column="62" selection-end-line="190" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="mybatis-config" />
+        <option value="springmvc-config" />
+        <option value="applicationContext" />
+        <option value="db" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/L9-button.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/ProduceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/ProductDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/serviceImpl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/web/controller/textController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/L17-panel.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/text.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/tet.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/User_subscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Subscribe.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bootstrap/css/userinfocss.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/customer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/ffa3d34bb32a429cb5e5b3208ceb7eb1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Video.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/po/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/web/controller/JavaPro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/interceptor/JavaPro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/serviceImpl/RoomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/RoomDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/RoomDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/web/controller/WebSocketController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/001.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/002.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/003.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/004.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/cbb6d1f548fa4465b5c4315426f5b2d0.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/classify.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/subscribe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/video_web/web/controller/RoomController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/userinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/admisInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/liveRoom.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/room-template.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testProjectname Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testProjectname Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testProjectname Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="video_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="video_web" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="video_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="video_web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testProjectname" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testProjectname" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554368988303" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17126437" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp\jsp" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\java\com\video_web\dao" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp\bootstrap\jq" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\java\com\video_web\web\controller" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp\jsp" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\walse\IdeaProjects\testProjectname\src\main\webapp\video" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.30">
+    <configuration name="Tomcat 8.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="testProjectname:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="D:/uploadimg">
+          <settings>
+            <option name="CONTEXT_PATH" value="/uploadimg" />
+          </settings>
+        </file>
+        <file path="D:/uploadvideo">
+          <settings>
+            <option name="CONTEXT_PATH" value="/uploadvideo" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_30_testProjectname" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63564" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false">
+          <artifact name="testProjectname:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_testProjectname" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63564" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63556" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userinfo.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/userinfo.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="testProjectname:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/testProjectname_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_testProjectname" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63564" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="testProjectname:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.0.30" />
+      <item itemvalue="Tomcat Server.userinfo.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.userinfo.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringConfigurationTabSettings">
+    <option name="sortAlpha" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5df8e5d-4578-4983-b2a8-0c473d6245b1" name="Default Changelist" comment="" />
+      <created>1552405873557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552405873557</updated>
+      <workItem from="1552405885699" duration="2112000" />
+      <workItem from="1552485343552" duration="5466000" />
+      <workItem from="1552492404411" duration="71000" />
+      <workItem from="1552492738332" duration="745000" />
+      <workItem from="1552535184427" duration="24244000" />
+      <workItem from="1552621845355" duration="15990000" />
+      <workItem from="1552659288963" duration="8763000" />
+      <workItem from="1552701524181" duration="24692000" />
+      <workItem from="1552787794678" duration="6710000" />
+      <workItem from="1552796932683" duration="364000" />
+      <workItem from="1552797364062" duration="498000" />
+      <workItem from="1552797927449" duration="20862000" />
+      <workItem from="1552885050116" duration="18658000" />
+      <workItem from="1552969201607" duration="19778000" />
+      <workItem from="1553010281804" duration="4148000" />
+      <workItem from="1553044985700" duration="11974000" />
+      <workItem from="1553246339459" duration="15250000" />
+      <workItem from="1553306359607" duration="31937000" />
+      <workItem from="1553394006234" duration="6577000" />
+      <workItem from="1553401140357" duration="2362000" />
+      <workItem from="1553405586498" duration="1372000" />
+      <workItem from="1553414484208" duration="2349000" />
+      <workItem from="1553500816859" duration="717000" />
+      <workItem from="1553501719119" duration="8825000" />
+      <workItem from="1553512228311" duration="396000" />
+      <workItem from="1553583072745" duration="9020000" />
+      <workItem from="1553662378434" duration="23580000" />
+      <workItem from="1553691171848" duration="10392000" />
+      <workItem from="1553728655276" duration="3643000" />
+      <workItem from="1553752396515" duration="9673000" />
+      <workItem from="1553762813234" duration="5064000" />
+      <workItem from="1553783924187" duration="4167000" />
+      <workItem from="1553811169034" duration="4080000" />
+      <workItem from="1553858595784" duration="1711000" />
+      <workItem from="1553861114487" duration="12878000" />
+      <workItem from="1554075952367" duration="5609000" />
+      <workItem from="1554108681636" duration="5299000" />
+      <workItem from="1554115754407" duration="20220000" />
+      <workItem from="1554182317349" duration="17227000" />
+      <workItem from="1554215513655" duration="6355000" />
+      <workItem from="1554222226804" duration="47000" />
+      <workItem from="1554301908049" duration="4472000" />
+      <workItem from="1554306982999" duration="3963000" />
+      <workItem from="1554358609997" duration="9465000" />
+      <workItem from="1554370155690" duration="109000" />
+      <workItem from="1554372386624" duration="12485000" />
+      <workItem from="1554467450163" duration="13200000" />
+      <workItem from="1554519661011" duration="1769000" />
+      <workItem from="1554535739325" duration="2095000" />
+      <workItem from="1554538741141" duration="1430000" />
+      <workItem from="1554596710054" duration="10514000" />
+      <workItem from="1554618800672" duration="13630000" />
+      <workItem from="1554684376977" duration="7414000" />
+      <workItem from="1554733411110" duration="56000" />
+      <workItem from="1554736888677" duration="1755000" />
+      <workItem from="1554739926705" duration="243000" />
+      <workItem from="1554769085566" duration="2444000" />
+      <workItem from="1554789209984" duration="27111000" />
+      <workItem from="1554858255418" duration="19591000" />
+      <workItem from="1554909547547" duration="5956000" />
+      <workItem from="1554987456625" duration="11700000" />
+      <workItem from="1555000215634" duration="1184000" />
+      <workItem from="1555047987631" duration="12935000" />
+      <workItem from="1555073831673" duration="442000" />
+      <workItem from="1555136666665" duration="12000" />
+      <workItem from="1555165991294" duration="6407000" />
+      <workItem from="1555204134558" duration="27506000" />
+      <workItem from="1555311652061" duration="2624000" />
+      <workItem from="1555335351039" duration="10850000" />
+      <workItem from="1555371092287" duration="5681000" />
+      <workItem from="1555381967566" duration="1246000" />
+      <workItem from="1555498758659" duration="22000" />
+      <workItem from="1555725303206" duration="4658000" />
+      <workItem from="1555738373318" duration="1440000" />
+      <workItem from="1555742375476" duration="582000" />
+      <workItem from="1555744988762" duration="548000" />
+      <workItem from="1555815337974" duration="536000" />
+      <workItem from="1555937183707" duration="181000" />
+      <workItem from="1555997565724" duration="128000" />
+      <workItem from="1556007173082" duration="453000" />
+      <workItem from="1556541398380" duration="9604000" />
+      <workItem from="1556590415183" duration="983000" />
+      <workItem from="1556850519073" duration="95000" />
+      <workItem from="1556885105459" duration="461000" />
+      <workItem from="1556895666311" duration="981000" />
+      <workItem from="1556897181032" duration="651000" />
+      <workItem from="1556922220102" duration="4319000" />
+      <workItem from="1556936618814" duration="1191000" />
+      <workItem from="1556939456609" duration="785000" />
+      <workItem from="1557381279648" duration="739000" />
+      <workItem from="1557383398173" duration="120000" />
+      <workItem from="1559281732126" duration="34000" />
+      <workItem from="1559288249368" duration="40000" />
+      <workItem from="1559802017510" duration="66000" />
+      <workItem from="1559968757236" duration="106000" />
+      <workItem from="1561281235903" duration="2633000" />
+      <workItem from="1561296310686" duration="329000" />
+      <workItem from="1561561419642" duration="43000" />
+      <workItem from="1561565444654" duration="477000" />
+      <workItem from="1561978654699" duration="169000" />
+      <workItem from="1562133297330" duration="99000" />
+      <workItem from="1563490943055" duration="81000" />
+      <workItem from="1563712749468" duration="103000" />
+      <workItem from="1564544356664" duration="40000" />
+      <workItem from="1564558847432" duration="120000" />
+      <workItem from="1565143741253" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="625037000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.17963752" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5016234" side_tool="true" weight="0.19037199" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.25027084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.36944744" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32936078" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.20309168" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info active="true" anchor="right" id="Maven" order="8" visible="true" weight="0.32142857" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.15351813" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5016234" side_tool="true" weight="0.19037199" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3564464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.36944744" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32936078" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.2260128" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32142857" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/Application.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5f06ee4b-440d-4a74-858e-cd6c53126516/schema/video_web/table/table_admin" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/interceptor/JavaPro.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/Subscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/WebSocketController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar!/javax/websocket/RemoteEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/po/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/one.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/cssdemo.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admininfo.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/serviceImpl/RoomServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2522#2523#0" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar!/javax/websocket/OnMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#294#329#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5f06ee4b-440d-4a74-858e-cd6c53126516/schema/video_web/table/table_room_video">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/002.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="44" column="114" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/003.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="44" column="114" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/004.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="171" selection-end-column="10" />
+          <folding>
+            <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/4a6f6b5d17f7422c9ac3cd117810a343.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/cbb6d1f548fa4465b5c4315426f5b2d0.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="171" column="10" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
+          <folding>
+            <element signature="n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5f06ee4b-440d-4a74-858e-cd6c53126516/schema/video_web/table/table_room">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5f06ee4b-440d-4a74-858e-cd6c53126516/schema/video_web/table/table_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/subscribe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="224" column="31" lean-forward="true" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/room.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5f06ee4b-440d-4a74-858e-cd6c53126516/schema/video_web/table/table_user_subscribe">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/dao/RoomDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/dao/RoomDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/001.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7659">
+          <caret line="333" selection-start-line="330" selection-start-column="45" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/room-template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5175">
+          <caret line="225" column="18" selection-start-line="225" selection-start-column="18" selection-end-line="225" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#selectRoomUser#0;class#RoomController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/video_web/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4025">
+          <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6808">
+          <caret line="296" column="69" selection-start-line="296" selection-start-column="69" selection-end-line="296" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admisInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4462">
+          <caret line="194" column="71" selection-start-line="194" selection-start-column="71" selection-end-line="194" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/liveRoom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5014">
+          <caret line="218" column="47" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/classify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4370">
+          <caret line="190" column="62" selection-start-line="190" selection-start-column="62" selection-end-line="190" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>testProjectname:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (testProjectname)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|testProjectname</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17126437" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
