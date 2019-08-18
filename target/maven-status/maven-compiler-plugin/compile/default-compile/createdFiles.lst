@@ -1,0 +1,5 @@
+com\video_web\po\User.class
+com\video_web\service\UserService.class
+com\video_web\dao\UserDao.class
+com\video_web\serviceImpl\UserServiceImpl.class
+com\video_web\web\controller\UserController.class

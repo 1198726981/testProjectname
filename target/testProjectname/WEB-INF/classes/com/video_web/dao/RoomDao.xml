@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.video_web.dao.RoomDao" >
+    <!-- 查询用户 -->
+    <select id="findRoom" parameterType="String" resultType="room">
+	    select *
+	    from table_room
+        <where>
+            <if test="queryText!=null">
+                room_name like "%"#{queryText}"%"
+            </if>
+            <if test="queryText!=null">
+                or room_ownner like "%"#{queryText}"%"
+            </if>
+        </where>
+    </select>
+
+    <select id="findRoom2" parameterType="String" resultType="room">
+        select *
+        from table_room
+        <where>
+            room_ownner = #{room_ownner}
+        </where>
+    </select>
+
+    <select id="findRoom_classify" parameterType="String" resultType="room">
+        select *
+        from table_room
+        <where>
+            room_classify = #{room_classify}
+        </where>
+    </select>
+
+    <resultMap type="subscribe" id="userSubscribeResult">
+        <id property="subscribe_id" column="subscribe_id"/>
+        <result property="user_code" column="user_code"/>
+        <result property="room_url" column="room_url"/>
+        <association property="room" javaType="Room">
+            <result property="room_ownner" column="room_ownner"/>
+            <result property="room_name" column="room_name"/>
+            <result property="room_img" column="room_img"/>
+            <result property="room_online" column="room_online"/>
+            <result property="room_play_count" column="room_play_count"/>
+            <result property="room_url" column="room_url"/>
+            <result property="room_classify" column="room_classify"/>
+        </association>
+    </resultMap>
+    <select id="selectSubscribe" parameterType="String" resultMap="userSubscribeResult">
+        select s.*,r.room_url,r.room_ownner,r.room_name,r.room_img,r.room_online,r.room_play_count
+        from table_user_subscribe s,table_room r
+        where s.room_url=r.room_url
+        and s.user_code=#{user_code}
+    </select>
+
+
+
+    <update id="updateCount"  >
+        update table_room
+        <set>
+            room_play_count=#{room_play_count}
+        </set>
+        <where>
+            room_ownner=#{room_ownner}
+        </where>
+    </update>
+
+    <select id="selectVideo" parameterType="String" resultType="video">
+        select * from table_room_video
+        <where>
+            user_code = #{user_code}
+        </where>
+    </select>
+
+    <insert id="insertNewRoom" parameterType="String" >
+        insert into table_room(
+            room_ownner,room_url
+        )value(
+               #{user_code},#{room_url}
+            )
+    </insert>
+
+    <update id="updateRoomOnline"  >
+        update table_room
+        <set>
+            room_online=#{room_online}
+        </set>
+        <where>
+            room_url=#{room_url}
+        </where>
+    </update>
+
+    <update id="uploadImg"  >
+        update table_room
+        <set>
+            room_img=#{room_img}
+        </set>
+        <where>
+            room_ownner=#{room_ownner}
+        </where>
+    </update>
+
+    <update id="updateRoomInfo"  >
+        update table_room
+        <set>
+            room_name=#{room_name},room_classify=#{room_classify}
+        </set>
+        <where>
+            room_ownner=#{room_ownner}
+        </where>
+    </update>
+   <!-- <where>
+        <if test="cust_name!=null">
+            cust_name like "%"#{cust_name}"%"
+        </if>
+        <if test="cust_source!=null">
+            and cust_source=#{cust_source}
+        </if>
+        <if test="cust_industry!=null">
+            and cust_industry=#{cust_industry}
+        </if>
+        <if test="cust_level!=null">
+            and cust_level=#{cust_level}
+        </if>
+    </where>-->
+</mapper>

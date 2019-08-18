@@ -1,0 +1,90 @@
+#navbg{
+    background-color: #ffffff!important;
+}
+
+.navbar-border{
+    border-color: #e7e7e7;
+}
+
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 0 ;
+    border: 1px solid transparent;
+}
+.navbar a{
+    font-size: 21px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+
+
+.u_main_body{
+    border: 1px solid #e5e4e4;
+}
+
+.uimage{
+    text-align: center;
+    height: 20%;
+}
+
+.uimage input{
+    display: inline;
+}
+
+.uimage p{
+    display: inline;
+}
+
+.uimage_form_img {
+   height: 100%;
+    width: 20%;
+}
+
+.radio{
+    padding-left: 200px;
+}
+
+
+.layout-cover-item img{
+    width:100%;
+    height: 70%;
+}
+
+.room-content{
+    text-align: center;
+    height: 30%;
+}
+
+
+
+.content-all{
+    margin-bottom: 10px;
+
+    /*border: 1px solid #f2f5f6;
+    border-radius: 10px;*/
+    height: 20%;
+}
+
+.radius{
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid #f2f5f6;
+    border-radius: 10px;
+}
+
+.uroom{
+    height: 40%;
+}
+
+.uroom_from_img{
+    height: 80%;
+    width: 60%;
+}

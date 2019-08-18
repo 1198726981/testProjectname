@@ -1,0 +1,26 @@
+.title-img{
+    padding-left: 0;
+}
+.title-img img{
+    width:100%;
+    height: 20%;
+}
+
+.video-list{
+    border: 1px solid #e5e4e4;
+}
+.chat-room{
+    border: 1px solid #e5e4e4;
+}
+
+.left-title{
+    border: 1px solid #e5e4e4;
+}
+
+.left-video video{
+    border: 1px solid #e5e4e4;
+}
+
+.subscribe button{
+    float: right;
+}

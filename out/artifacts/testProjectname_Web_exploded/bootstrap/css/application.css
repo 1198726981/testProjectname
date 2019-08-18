@@ -1,0 +1,169 @@
+
+h1,h3,p,a,button{
+    font-family: 华文琥珀;
+}
+
+.onepage{
+    height:750px;
+}
+
+.onepage-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+
+#onepagebg{
+    background-image: url("/img/bg.jpg");
+}
+
+.headh1content{
+    margin-top: 150px;
+    line-height: 75px;
+}
+
+.title-text{
+    margin-left: 50px;
+}
+
+.headfontsize h1{
+    font-size: 50pt;
+    color:#ffffff;
+}
+
+.twopage{
+    padding:10px 0 0 2px;
+    height:auto;
+    /*background-image: url("");*/
+    position:relative;
+}
+
+.twopage-text{
+    width:100%;
+    text-align: center;
+}
+
+.twopage-text-h1{
+    margin-left:10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 25px 0 0 0;
+}
+
+.twopage-text-h1 img{
+    width:90px;
+}
+
+.twopage .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.twopage-courses{
+    float:left;
+    background:#ffffff;
+    paddind:0 2px 2px 0;
+    position: relative;
+    overflow:hidden;
+    height: 400px;
+}
+
+.twopage-courses >a{
+    width:100%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    position:relative;
+}
+
+.twopage-courses img{
+    height:400px;
+}
+
+.classicon h3{
+    margin-top:120px;
+}
+
+.classicon h1{
+    color:#d1e973;
+}
+
+.classicon{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+}
+
+.classicon:hover{
+    background: #1eb450;
+    opacity:0.9;
+    transition:opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+.twopagebtn{
+    width:100%;
+    margin:0% auto;
+    text-align:center;
+}
+
+.twopagebtn .btn-lg{
+    font-size:25px;
+}
+
+#twopage-easy{
+    margin:50px 0 50px 0;
+}
+
+.threepage{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#threepagebg{
+    background-image:url("/img/threebg.jpg");
+}
+
+.threepagecontent{
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.threepagetext{
+    margin-top:100px;
+}
+
+.threepagetext p{
+    margin-top:20px;
+    color:#000000;
+    font-size:20px;
+    line-height: 32px;
+}
+
+.threepagebtncontent{
+    margin-top:100px;
+    font-size:25px;
+}
+
+.fourpage{
+    height:700px;
+    margin-top:500px;
+}
+
+.coursexingqing-text{
+    color:red;
+    margin-top:100px;
+    width:100%;
+    text-align: center;
+}
